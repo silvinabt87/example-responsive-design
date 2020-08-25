@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "live-server": "^1.2.1",
+    "postcss-cli": "^7.1.1",
+    "tailwind-percentage-heights-plugin": "^0.1.4",
+    "tailwindcss": "^1.7.3"
+  },
+  "scripts": {
+    "build": "postcss css/styles.css -o build/styles.css"
+  }
+}
